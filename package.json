@@ -1,0 +1,23 @@
+{
+  "name": "node-sms-example",
+  "version": "1.0.0",
+  "description": "A simple node sms sender example",
+  "repository": "https://github.com/lucasgdb/node-sms-example",
+  "author": "lucasgdb",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd ts-node src/server.ts"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "twilio": "^3.81.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.1",
+    "@types/node": "^18.7.14",
+    "env-cmd": "^10.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
